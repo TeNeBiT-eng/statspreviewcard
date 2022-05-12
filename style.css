@@ -32,7 +32,7 @@ section{
     border-radius: 10px 10px 0 0;
 }
 
-.stat_intro_text{
+.stat_intro_header{
     font-size: 1.7rem;
     color: white;
     font-family: 'Inter', sans-serif;
@@ -42,7 +42,7 @@ section{
     padding-top: 30px;
 }
 
-.stat_intr0_paragraph{
+.stat_intro_paragraph{
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -55,8 +55,16 @@ section{
 ul li{
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
+    padding-top: 2.5rem;
+}
+
+ul li h1{
+    color: white;
+    font-size: 1.7rem;   
 }
 
 ul li p{
-    padding-top: 0px;
+    padding-top: 0.6rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
 }
