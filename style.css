@@ -70,5 +70,37 @@ ul li p{
 }
 
 @media (min-width: 768px) {
-    
+    .motherContainer{
+        display: flex;
+        max-width: 100%;
+    }
+    ul{
+        display: flex;
+        /* justify-content: space-between; */
+        /* padding-left: 2.57rem; */
+        margin-left: 2.6rem;
+    }
+    ul li{
+        padding-inline-end: 3rem;
+    }
+    ul li h1{
+        /* width: 70%; */
+        text-align: start;
+    }
+    .img_container{
+        width: 100%;
+        order: 2;
+    }
+    .img_container img{
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        padding-bottom: 0px;
+    }
+    .stat_intro_header{
+        text-align: start;
+    }
+    .stat_intro_paragraph{
+        text-align: start;
+    }
 }
