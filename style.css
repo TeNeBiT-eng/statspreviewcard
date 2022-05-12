@@ -41,3 +41,18 @@ section{
     text-align: center;
     padding-top: 30px;
 }
+
+.stat_intro_text_container p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 20px;
+    line-height: 1.7;
+    font-family: 'Inter', sans-serif;
+}
+
+ul li{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
