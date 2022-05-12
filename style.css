@@ -33,7 +33,11 @@ section{
 }
 
 .stat_intro_text{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: white;
-    font-family: ;
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
 }
