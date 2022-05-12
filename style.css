@@ -72,7 +72,7 @@ ul li p{
 @media (min-width: 768px) {
     .motherContainer{
         display: flex;
-        max-width: 100%;
+        max-width: 768px;
     }
     ul{
         display: flex;
@@ -95,7 +95,6 @@ ul li p{
         width: 100%;
         border-top-left-radius: 0px;
         border-bottom-right-radius: 10px;
-        padding-bottom: 0px;
     }
     .stat_intro_header{
         text-align: start;
