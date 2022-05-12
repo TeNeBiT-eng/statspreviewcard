@@ -42,7 +42,7 @@ section{
     padding-top: 30px;
 }
 
-.stat_intro_text_container p{
+.stat_intr0_paragraph{
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -55,4 +55,8 @@ section{
 ul li{
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
+}
+
+ul li p{
+    padding-top: 0px;
 }
