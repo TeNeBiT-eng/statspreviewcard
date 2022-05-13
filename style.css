@@ -80,7 +80,8 @@ ul li p{
         /* justify-content: space-between; */
         /* padding-left: 2.57rem; */
         margin-left: 2.6rem;
-        padding: 4rem 0;
+        padding: 2rem 0;
+        padding-bottom: 4rem;
     }
     ul li{
         padding-inline-end: 3rem;
