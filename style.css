@@ -28,6 +28,7 @@ section{
 
 .img_container {
     background-color: hsl(277, 64%, 61%);
+    border-bottom-right-radius: 10px;
 }
 
 .img_container img{
