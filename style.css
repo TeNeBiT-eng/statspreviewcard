@@ -23,7 +23,7 @@ section{
     max-width: 320px;
     background-color: hsl(244, 38%, 16%);
     border-radius: 0 0 10px 10px;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 .img_container img{
@@ -71,14 +71,16 @@ ul li p{
 
 @media (min-width: 768px) {
     .motherContainer{
-        display: flex;
-        max-width: 768px;
+        display: grid;
+        max-width: 800px;
+        grid-template-columns: 1fr 1fr;
     }
     ul{
         display: flex;
         /* justify-content: space-between; */
         /* padding-left: 2.57rem; */
         margin-left: 2.6rem;
+        padding: 4rem 0;
     }
     ul li{
         padding-inline-end: 3rem;
@@ -93,6 +95,7 @@ ul li p{
     }
     .img_container img{
         width: 100%;
+        min-height: 100%;
         border-top-left-radius: 0px;
         border-bottom-right-radius: 10px;
     }
