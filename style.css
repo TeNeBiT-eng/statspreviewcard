@@ -51,7 +51,9 @@ section{
     line-height: 1.7;
     font-family: 'Inter', sans-serif;
 }
-
+ul{
+    padding-bottom: 4rem;
+}
 ul li{
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
@@ -74,6 +76,7 @@ ul li p{
         display: grid;
         max-width: 800px;
         grid-template-columns: 1fr 1fr;
+        border-top-left-radius: 10px;
     }
     ul{
         display: flex;
